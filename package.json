@@ -1,0 +1,33 @@
+{
+  "name": "ibrahim-bundle-phobia-server",
+  "version": "1.0.0",
+  "description": "custom bundle phobia implementation",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "client": "npm run start --prefix phobia-ui",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Ibrahim Jelliti <ibrahimjelliti.contact@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs-extra": "^8.1.0",
+    "node-persist": "^3.1.0",
+    "request": "^2.88.2",
+    "rimraf": "^3.0.0",
+    "sanitize-filename": "^1.6.3",
+    "semver": "^6.3.0",
+    "shortid": "^2.2.15",
+    "terser-webpack-plugin": "^2.2.1",
+    "validate-npm-package-name": "^3.0.0",
+    "webpack": "^4.41.2",
+    "zlib": "^1.0.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10"
+  }
+}
