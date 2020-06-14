@@ -6,6 +6,10 @@ import Axios from "axios";
 import SizeBarChart from "./Barchart";
 const prettyBytes = require('pretty-bytes');
 
+const url = 'http://localhost'
+const endpoint = '/search?package='
+const port = 4000;
+
 const { Title } = Typography;
 function App() {
   //  state variable
@@ -23,7 +27,7 @@ function App() {
     setIsLoading(true);
     try {
       const data = await Axios.get(
-        `http://localhost:4000/search?package=${searchPackage.toLowerCase()}`
+        `${url}${port}${endpoint}${searchPackage.toLowerCase()}`
       );
 
       if (!data.error) {
@@ -104,7 +108,7 @@ function Stats({ metadata }) {
       <Title>{name}</Title>
       <p>{description}</p>
       <h2>BUNDLE SIZE</h2>
-      <Row>        
+      <Row>
         <Col span={12}>
           <Statistic title="MINIFIED" value={prettyBytes(sizes[sizes.length - 1].minified)} />
         </Col>

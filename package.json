@@ -12,11 +12,8 @@
   "author": "Ibrahim Jelliti <ibrahimjelliti.contact@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@babel/preset-env": "^7.10.2",
-    "@babel/preset-react": "^7.10.1",
     "@testing-library/react": "^10.2.1",
     "axios": "^0.19.2",
-    "babel-jest": "^26.0.1",
     "concurrently": "^5.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
@@ -35,11 +32,17 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-runtime": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "babel-jest": "^26.0.1",
     "jest": "^26.0.1",
     "webpack-cli": "^3.3.10"
   },
   "jest": {
     "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "<rootDir>/phobia-ui/"
+    ],
     "watchPathIgnorePatterns": [
       "tmp/",
       "<rootDir>/node_modules/"
