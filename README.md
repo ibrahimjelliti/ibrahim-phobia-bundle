@@ -21,3 +21,6 @@ npm run dev
 Now access bundle-phobia at:
 
 [`http://localhost:3000/`](http://localhost:3000/)
+
+# Jest Test
+run ```jest``` or ```npx jest``` if jest is not installed globally at root folder: **ibrahim-phobia-bundle** and **phobia-ui**
