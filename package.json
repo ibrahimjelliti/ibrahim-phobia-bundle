@@ -6,17 +6,23 @@
   "scripts": {
     "server": "node index.js",
     "client": "npm run start --prefix phobia-ui",
+    "test": "jest",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Ibrahim Jelliti <ibrahimjelliti.contact@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@babel/preset-env": "^7.10.2",
+    "@babel/preset-react": "^7.10.1",
+    "@testing-library/react": "^10.2.1",
     "axios": "^0.19.2",
+    "babel-jest": "^26.0.1",
     "concurrently": "^5.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "fs-extra": "^8.1.0",
     "node-persist": "^3.1.0",
+    "react-test-renderer": "^16.13.1",
     "request": "^2.88.2",
     "rimraf": "^3.0.0",
     "sanitize-filename": "^1.6.3",
@@ -28,6 +34,15 @@
     "zlib": "^1.0.5"
   },
   "devDependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.1",
+    "jest": "^26.0.1",
     "webpack-cli": "^3.3.10"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "watchPathIgnorePatterns": [
+      "tmp/",
+      "<rootDir>/node_modules/"
+    ]
   }
 }

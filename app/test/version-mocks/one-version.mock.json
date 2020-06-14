@@ -1,0 +1,72 @@
+{
+  "_id": "masda",
+  "_rev": "1-ffddb109ebbce700f28bfce8d7f81dec",
+  "name": "masda",
+  "description": "test",
+  "dist-tags": {
+    "latest": "1.0.0"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "masda",
+      "version": "1.0.0",
+      "description": "test",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "author": {
+        "name": "masdaclavo"
+      },
+      "license": "ISC",
+      "keywords": [
+        "masda"
+      ],
+      "_id": "masda@1.0.0",
+      "_shasum": "72c6c710f002f9b5910b52d49e4558203c90a4c9",
+      "_from": ".",
+      "_npmVersion": "3.10.10",
+      "_nodeVersion": "6.11.0",
+      "_npmUser": {
+        "name": "masda",
+        "email": "agungmasda29@gmail.com"
+      },
+      "dist": {
+        "shasum": "72c6c710f002f9b5910b52d49e4558203c90a4c9",
+        "tarball": "https://registry.npmjs.org/masda/-/masda-1.0.0.tgz"
+      },
+      "maintainers": [
+        {
+          "name": "masda",
+          "email": "agungmasda29@gmail.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/masda-1.0.0.tgz_1498150846619_0.03779899491928518"
+      },
+      "directories": {}
+    }
+  },
+  "readme": "ERROR: No README data found!",
+  "maintainers": [
+    {
+      "name": "masda",
+      "email": "agungmasda29@gmail.com"
+    }
+  ],
+  "time": {
+    "modified": "2017-06-22T17:00:46.720Z",
+    "created": "2017-06-22T17:00:46.720Z",
+    "1.0.0": "2017-06-22T17:00:46.720Z"
+  },
+  "keywords": [
+    "masda"
+  ],
+  "author": {
+    "name": "masdaclavo"
+  },
+  "license": "ISC",
+  "readmeFilename": "",
+  "_attachments": {}
+}

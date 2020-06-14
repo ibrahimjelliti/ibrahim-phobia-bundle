@@ -1,0 +1,24 @@
+{
+  "_id": "toto",
+  "_rev": "3-a87a8a395bec7b805f0f9e3b1d46cd53",
+  "name": "toto",
+  "description": "descr of toto :)",
+  "dist-tags": { "latest": "2.0.2" },
+  "versions": {
+    "0.0.1": {},
+    "0.0.2": {},
+    "2.0.2": {}
+  },
+  "readme": "# Toto Test",
+  "maintainers": [{ "email": "npm@npmjs.com", "name": "npm" }],
+  "time": {
+    "modified": "2019-10-15T14:15:10.461Z",
+    "created": "2017-03-27T14:47:24.784Z",
+    "0.0.1": "2017-03-27T14:47:24.784Z",
+    "0.0.2": "2017-03-27T14:50:56.711Z"
+  },
+  "keywords": ["toto", "test", "npm"],
+  "repository": { "type": "git", "url": "gitrepo" },
+  "license": "ISC",
+  "readmeFilename": "README.md"
+}

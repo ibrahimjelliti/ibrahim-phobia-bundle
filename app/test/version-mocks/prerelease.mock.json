@@ -1,0 +1,74 @@
+{
+  "_id": "toto",
+  "_rev": "3-a87a8a395bec7b805f0f9e3b1d46cd53",
+  "name": "toto",
+  "description": "descr of toto :)",
+  "dist-tags": { "latest": "0.0.2" },
+  "versions": {
+    "0.0.1": {
+      "name": "toto",
+      "version": "0.0.1",
+      "description": "descr of toto :)",
+      "main": "main.js",
+      "scripts": { "test": "test" },
+      "repository": { "type": "git", "url": "gitrepo" },
+      "keywords": ["toto", "test", "npm"],
+      "license": "ISC",
+      "dependencies": { "lodash": "^4.17.4" },
+      "_id": "toto@0.0.1",
+      "_shasum": "77520c0dcbcecb5cde6212aa8e371b5582f5778b",
+      "_from": ".",
+      "_npmVersion": "4.1.2",
+      "_nodeVersion": "7.7.2",
+      "dist": {
+        "shasum": "77520c0dcbcecb5cde6212aa8e371b5582f5778b",
+        "tarball": "https://registry.npmjs.org/toto/-/toto-0.0.1.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-12-west.internal.npmjs.com",
+        "tmp": "tmp/toto-0.0.1.tgz_1490626042910_0.2597911856137216"
+      },
+      "directories": {},
+      "deprecated": "'useless"
+    },
+    "0.0.2-rc": {
+      "name": "toto",
+      "version": "0.0.2-rc",
+      "description": "descr of toto :)",
+      "main": "main.js",
+      "scripts": { "test": "test" },
+      "repository": { "type": "git", "url": "gitrepo" },
+      "keywords": ["toto", "test", "npm"],
+      "author": { "name": "khaled" },
+      "license": "ISC",
+      "dependencies": { "lodash": "^4.17.4" },
+      "_id": "toto@0.0.2",
+      "_shasum": "0bb91fe631ac4ef43cc0fa6f86949ef5339f449e",
+      "_from": ".",
+      "_npmVersion": "4.1.2",
+      "_nodeVersion": "7.7.2",
+      "dist": {
+        "shasum": "0bb91fe631ac4ef43cc0fa6f86949ef5339f449e",
+        "tarball": "https://registry.npmjs.org/toto/-/toto-0.0.2.tgz"
+      },
+      "_npmOperationalInternal": {
+        "host": "packages-18-east.internal.npmjs.com",
+        "tmp": "tmp/toto-0.0.2.tgz_1490626256024_0.6263367091305554"
+      },
+      "directories": {},
+      "deprecated": "'useless"
+    }
+  },
+  "readme": "# Toto Test",
+  "maintainers": [{ "email": "npm@npmjs.com", "name": "npm" }],
+  "time": {
+    "modified": "2019-10-15T14:15:10.461Z",
+    "created": "2017-03-27T14:47:24.784Z",
+    "0.0.1": "2017-03-27T14:47:24.784Z",
+    "0.0.2": "2017-03-27T14:50:56.711Z"
+  },
+  "keywords": ["toto", "test", "npm"],
+  "repository": { "type": "git", "url": "gitrepo" },
+  "license": "ISC",
+  "readmeFilename": "README.md"
+}
